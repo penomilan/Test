@@ -11,6 +11,7 @@
     <style>
         h1{text-align: center;
         }
+        div{margin: 6%;}
     </style>
     </head>
   <body>
@@ -41,6 +42,39 @@
             <li>Koja je razlika izmedju klase i objekta?</li>
             <i>Objekat je tip klase. Klasa je sablon za instanciranje objekata. Npr, Klasa je ZIVOTINJA, objekti su PAS, MACKA, ZABA.</i>
       </ol>
+      <div>
+          <p>JavaScript funkcija koja predstavlja resenje <i>Fizz-Buzz </i>zadatka:</p>
+          <pre>
+          <code>
+              function counter() {
+                f="Fizz";
+                b="Buzz";
+                fb="FizzBuzz";
+                for (n=1; n<=100; n++) {
+                    if ((n%3==0)&&(n%5==0)) {
+                      console.log(fb)
+                      continue;
+                    }
+                    if (n%3==0){
+                    console.log(f);
+                    continue;
+                    }
+                    if (n%5==0){
+                    console.log(b);
+                    continue;
+                    }
+                    
+                    console.log(n);
+                    }
+              }
+              counter();
+             </code>
+          </pre>
+          <p>Python funkcija:</p>
+          <code>
+              
+          </code>
+      </div>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
